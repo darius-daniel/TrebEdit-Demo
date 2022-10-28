@@ -1,0 +1,109 @@
+/*
+    =====================================
+    General Styles
+    =====================================
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    font-family: Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7B7979;
+}
+
+header,
+.subscribe,
+.what-we-do,
+.get-quote {
+    background-color: #35424A;
+}
+
+.logo span {
+    color: #E8491D;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/*
+    ===========================
+    Navigation Bar
+    ===========================
+*/
+
+nav a {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+nav a:hover,
+input[type="button"]:hover {
+    text-shadow: 1px 1px 10px #FFFFFF;
+}
+
+nav a:active {
+    color: #E8491D
+}
+
+footer,
+form input[type="button"] {
+    background-color: #E8491D;
+}
+
+form input[type="button"] {
+    border: solid 1px #E8491D;
+    padding: 7px 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+textarea {
+    padding: 7px 5px;
+}
+
+form label,
+.get-quote input[type="button"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.get-quote input[type="button"] {
+    margin-top: 2px;
+}
+
+header,
+footer,
+header a,
+.subscribe p,
+form input[type="button"],
+.what-we-do,
+.get-quote {
+    color: #fff;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.get-quote input[type="email"],
+.get-quote input[type="text"],
+textarea {
+    width: 70%;
+}
+
+.articles img {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+
+section article {
+    box-shadow: 10px 10px 20px #35424A;
+}

@@ -1,0 +1,172 @@
+/*
+    ========================================
+    Responsive Design For Mobile
+    ========================================
+    Home Page
+    ========================================
+*/
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        box-sizing: border-box;
+    }
+
+    /*
+        =======================================
+        Header
+        =======================================
+    */
+
+    header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 1em;
+        text-align: center;
+        font-size: .8em;
+        word-spacing: .01em;
+        border-bottom: solid 3px #E8491D;
+    }
+
+    .logo h1 {
+        padding-bottom: 20px;
+    }
+
+
+   /*
+   *    =================================
+   *    Hero Section
+   *    =================================
+   */
+
+   .hero {
+        background-image: url("../images/showcase.jpg");
+        background-position: center;
+        background-size: auto;
+        text-align: center;
+        color: #fff;
+        padding: 2em 2em;
+   }
+
+   .hero h2 {
+        margin-bottom: 1em;
+        font-size: 1.3rem;
+   }
+
+   .hero p {
+        font-size: .9rem;
+   }
+
+
+   /*
+   *    ================================
+   *    Newsletter Section
+   *    ================================
+   */
+
+   .subscribe {
+        text-align: center;
+        padding: 20px;
+   }
+
+   .subscribe p {
+        font-size: 1.3rem;
+        padding-bottom: 10px;
+   }
+
+
+   /*
+   *    ====================================
+   *    Design Articles
+   *    ====================================
+   */
+
+   .articles {
+        text-align: center;
+        padding: 20px;
+        font-size: .8rem;
+        background-color: #F8F9F9;
+   }
+
+   .articles article {
+        width: 80%;
+        margin: 0 auto 30px auto;
+        background-color: #E3E3E3;
+        border: solid 1px #fff;
+        border-radius: 10px;
+        padding: 30px 15px;
+   }
+
+   .articles p {
+        width: 90%;
+        margin: 5px auto;
+   }
+
+   .articles h2 {
+        margin-top: 10px;
+        font-size: 1rem;
+   }
+
+   footer {
+        font-size: .9rem;
+   }
+
+
+   /*   ===================================
+   *    About Us
+   *    ===================================
+   */
+
+   .content h3 {
+        margin: 30px 15px 10px 15px;
+   }
+
+   .content p {
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: .8rem;
+   }
+
+   .content p.two {
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: #D3D3D3;
+        color: #555555;
+   }
+
+   .what-we-do {
+        width: 50%;
+        padding: 5px 10px 15px 10px;
+        margin: 15px auto;
+        background-color: #35424A;
+        color: #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 5px 5px 20px #555555;
+   }
+
+
+   /*
+   *    =========================================
+   *    Services Page
+   *    =========================================
+    */
+
+    .services h2 {
+          font-size: 1.25rem;
+          margin-bottom: 10px;
+    }
+
+    .get-quote {
+        text-align: left;
+        padding: 10px 15px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 20px#555555;
+    }
+
+    .get-quote h3 {
+        margin-left: 0;
+    }
+}
+
+
